@@ -6,7 +6,7 @@ void setup()
 {
 	size(460,276);
 	img = loadImage("mario.jpg");
-	fill(255);
+	background(255);
 }
 
 void draw()
@@ -17,6 +17,6 @@ void draw()
 		color c = img.get(x,y);
 		fill(c);
 		noStroke();
-		ellipse(x,y,20,20);
+		ellipse(x,y,15,15);
 	}
 }
