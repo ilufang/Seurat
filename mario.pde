@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 /* @pjs preload="mario.jpg"; */
 /* @pjs preload="jinkela.jpg"; */
 
+=======
+>>>>>>> parent of b977d22... Update mario.pde
 PImage img;
 String[] images = {"mario.jpg","jinkela.jpg"};
 
