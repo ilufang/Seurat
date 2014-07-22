@@ -1,22 +1,12 @@
-<<<<<<< HEAD
 /* @pjs preload="mario.jpg"; */
-/* @pjs preload="jinkela.jpg"; */
 
-=======
->>>>>>> parent of b977d22... Update mario.pde
 PImage img;
-String[] images = {"mario.jpg","jinkela.jpg"};
-
-void reloadimg(){
-	int i = (int)random(0,2);
-	img = loadImage(images[i]);
-	fill(255);
-}
 
 void setup()
 {
 	size(460,276);
-	reloadimg();
+	img = loadImage("mario.jpg");
+	fill(255);
 }
 
 void draw()
