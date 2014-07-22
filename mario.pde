@@ -1,10 +1,19 @@
 /* @pjs preload="mario.jpg"; */
+/* @pjs preload="jinkela.jpg"; */
+
 PImage img;
+String[] images = {"mario.jpg","jinkela.jpg"};
+
+void reloadimg(){
+	int i = (int)random(0,2);
+	img = loadImage(images[i]);
+	fill(255);
+}
+
 void setup()
 {
 	size(460,276);
-	img = loadImage("mario.jpg");
-	background(255);
+	reloadimg();
 }
 
 void draw()
